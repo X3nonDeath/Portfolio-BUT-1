@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+}
+
+header {
+    background-color: #007acc; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+.messages-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.message {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sender {
+    font-weight: bold;
+    color: #007acc; 
+}
+
+.receiver{
+    font-weight: bold;
+    color: #007acc; 
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.date {
+    font-size: 12px;
+    color: #888; 
+}
+
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.signature {
+    font-style: italic;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+}
+
+header {
+    background-color: #007acc; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.compose {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.compose h2 {
+    color: #007acc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005c99;
+}
+
+.messages-container0{
+    flex: 2;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.message {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sender {
+    font-weight: bold;
+    color: #007acc; 
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.date {
+    font-size: 12px;
+    color: #888; 
+}

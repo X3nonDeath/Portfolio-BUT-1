@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubisoft Mobility Service</title>
+    <style>
+        
+        .index{
+            margin: 0;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        #logo-container {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background-color: #333; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 1s ease; 
+        }
+
+        #logo {
+            width: 300px; 
+            height: 300px; 
+            transform: rotate(0deg);
+            transition: transform 2s ease; 
+        }
+
+        #main-content {
+            display: none;
+            color: #fff; 
+            background-color: #222; 
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #logo-container:hover {
+            background-color: #555;
+        }
+
+        #logo-container:hover #logo {
+            transform: rotate(360deg);
+        }
+
+        #logo-container:hover #main-content {
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+<p class="index"> Cliquez sur le logo !</p>
+<div id="logo-container">
+    <a href="acceuil.html" id="logo">
+        <img src="images/logo.png" alt="Logo">
+    </a>
+
+    <div id="main-content">
+       
+        <h1>Ubisoft Mobility Service</h1>
+        <p>En route vers un monde plus vert</p>
+    </div>
+</div>
+
+</body>
+</html>

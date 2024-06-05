@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ubisoft Mobility Service</title>
+</head>
+<body>  
+    <header>
+        <h1>Ubisoft Mobility Service</h1>
+        <p>Votre compagnon de voyage durable chez Ubisoft</p>
+    </header>
+<main>
+        
+        <br>
+        <div class="form-container">
+            <form method="post" >
+                <div class="center">
+                    <h2>Formulaire Conducteur</h2>
+                </div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+        
+        
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+
+                <label for="numero">Numéro | <small> Sous le format: 07 83 12 78 87</small> :</label>
+                <input type="tel" id="phone" name="phone" 
+                pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required />
+        
+        
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+        
+        
+                <label for="adresse">Lieu de départ :</label>
+                <input type="text" id="adresse" name="adresse" required>
+
+
+                <label for="adresse">Lieu d'arrivé :</label>
+                <input type="text" id="adresse" name="adresse" required>
+
+
+                <label for="prix">Prix :</label>
+                <input type="number" id="prix" name="prix" required>
+        
+        
+                <label for="nombre_personnes">Nombre de places disponibles :</label>
+                <input type="number" id="nombre_personnes" name="nombre_personnes" required min="1" max="6">
+        
+
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+
+        
+                <label for="heure">Heure :</label>
+                <input type="number" id="heure" name="heure" required>
+                
+                
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+    
+
+    <div class="form-container1">
+            <form method="post" >
+                <div class="center">
+                    <h2>Formulaire Passager</h2>
+                </div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+        
+        
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+
+                <label for="numero">Numéro | <small> Sous le format: 07 83 12 78 87</small> :</label>
+                <input type="tel" id="phone" name="phone" 
+                pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required />
+        
+        
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+        
+        
+                <label for="adresse">Lieu de départ :</label>
+                <input type="text" id="adresse" name="adresse" required>
+
+
+                <label for="adresse">Lieu d'arrivé :</label>
+                <input type="text" id="adresse" name="adresse" required>
+                
+
+                <label for="date">Date :</label>
+                <input type="date" id="nombre_personnes" name="nombre_personnes" required>
+
+        
+                <label for="heure">Heure :</label>
+                <input type="number" id="heure" name="heure" required>
+
+                
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+    </main>
+    <div class="disponnibilités0">
+        <h1>Prochain covoiturage :</h1>
+    </div>
+    <div class="disponnibilités">
+        <p>     Covoiturage par : Ambroise</p>
+        <p>Prix : 42€</p>
+        <p>Mail : mail.innexistant.version1@yahoo.com</p>
+        <p>Téléphone : 06 52 43 91 01</p>
+        <p>Lieu de départ : Gare Lille Flandres</p>
+        <p>Lieu d'arrivé : Au travail</p>
+        <p>Quand : le 20/12/2023 à 7h45</p>
+    </div>
+
+    <div class="disponnibilités2">
+        <p>     Covoiturage par : Lorenzo</p>
+        <p>Prix : 69€</p>
+        <p>Mail : mail.innexistant.version2@yahoo.com</p>
+        <p>Téléphone : 07 68 87 29 30</p>
+        <p>Lieu de départ : Métro 4 Cantons</p>
+        <p>Lieu d'arrivé : Au travail</p>
+        <p>Quand : le 31/12/2023 à 9h12</p>
+    </div>
+
+    <div class="disponnibilités3">
+        <p>     Covoiturage par : Tom</p>
+        <p>Prix : 1€</p>
+        <p>Mail : mail.innexistant.version3@gmail.com</p>
+        <p>Téléphone : 07 83 12 78 87</p>
+        <p>Lieu de départ : Du travail</p>
+        <p>Lieu d'arrivé : Gare Lille Europe</p>
+        <p>Quand : le 02/01/2024 à 17h35</p>
+    </div>
+
+    <div class="recherche0">
+        <h1>Cherche un covoiturage :</h1>
+    </div>
+    <div class="recherche1">
+        <p>     Recherche par : DuMoulin Jules</p>
+        <p>Mail : mail.innexistant.version4@yahoo.com</p>
+        <p>Téléphone : 01 01 01 01 01</p>
+        <p>Lieu de départ : Gare de Wavrin</p>
+        <p>Lieu d'arrivé : Au travail</p>
+        <p>Quand : le 03/03/2024 à 03h03</p>
+    </div>
+
+    <div class="recherche2">
+        <p>     Recherche par : Martin Julien</p>
+        <p>Mail : mail.innexistant.version5@yahoo.com</p>
+        <p>Téléphone : 02 02 02 02 02</p>
+        <p>Lieu de départ : Gare de Tourcoing </p>
+        <p>Lieu d'arrivé : Au travail</p>
+        <p>Quand : le 02/02/2024 à 02h02</p>
+    </div>
+
+    <div class="recherche3">
+        <p>     Recherche par : Gourdin Julie</p>
+        <p>Mail : mail.innexistant.version6@gmail.com</p>
+        <p>Téléphone : 03 03 03 03 03</p>
+        <p>Lieu de départ : Du travail</p>
+        <p>Lieu d'arrivé : Alentours de Lille Europe</p>
+        <p>Quand : le 01/01/2024 à 01h01</p>
+    </div>
+
+    <div class="return-btn">
+        <a href="acceuil.html">Retour à la page d'accueil</a>
+    </div>
+    <footer>Commentaires :<input type="text" id="com" name="com" required> <input type="submit" value="Envoyer"></footer>
+</body>
+</html>
